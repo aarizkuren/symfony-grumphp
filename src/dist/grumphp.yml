@@ -26,14 +26,6 @@ grumphp:
                 - /^vendor\/(.*)/
             metadata:
                 priority: 999
-        phpcpd:
-            directory: ['.']
-            exclude: ['vendor', 'public', 'var', 'config', 'bin', 'translations', 'src/Presentation/Translations', 'src/Migrations', 'src/Infrastructure/Migrations', 'tests', 'src/DataFixtures', 'migrations']
-            fuzzy: false
-            min_lines: 5
-            min_tokens: 50
-            metadata:
-                priority: 999
         phpcsfixer:
             rules:
                 - '@PhpCsFixer'
